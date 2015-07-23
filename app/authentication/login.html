@@ -1,0 +1,18 @@
+<div ng-controller="LoginCtrl as lc">
+    <h1>Login</h1>
+    <form id="loginForm"  ng-submit="lc.login(lc.username, lc.password)" name="loginForm">
+        <div>
+            <div>
+                <label >Username</label>
+                <input type="text" id="userName" name="userName" ng-model="lc.username" placeholder="Your username" />
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" ng-model="lc.password" placeholder="Your password"  />
+            </div>
+            <div>
+                <input type="submit" value="Login"/>
+            </div>
+        </div>
+    </form>
+</div>
