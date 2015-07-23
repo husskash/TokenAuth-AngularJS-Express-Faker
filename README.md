@@ -12,3 +12,6 @@ to make it work you should:
 
 
 if you want to include data to the token please go the server.js and add properties there (I advise only user id and access level)
+Please note you need to install globally json-server and nodemon via npm install -g jsonserver nodemon
+
+You can also add in the generate_users.js (renaming the file into generate.js or generate_db.js) any other fake resource you need to work with via http requests.
