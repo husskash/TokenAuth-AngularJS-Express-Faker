@@ -1,9 +1,5 @@
 app.factory('userFactory', function userFactory($http, authTokenFactory, jwtHelper, config) {
     'use strict';
-    var token = authTokenFactory.getToken();
-    var loggedUser_id;
-    var access_level;
-    var latam;
     return{
         login: login,
         logout: logout
